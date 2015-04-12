@@ -1,0 +1,3 @@
+name: taller
+dependencies:
+  unittest: any
