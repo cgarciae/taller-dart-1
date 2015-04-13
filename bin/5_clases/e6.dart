@@ -1,6 +1,10 @@
 import 'package:unittest/unittest.dart' as ut;
 /**
- * En Dart los campos pueden ser sobre escritos con propiedades get 
+ * En Dart los campos realmente son getters y setters triviales de una variable 
+ * oculta. De esta manera, tambien se pueden sobre un campo de la clase padre
+ * creando un getter y un setter con ese nombre. Esto hace que las cambia el
+ * comportamiento de cierto objeto sea facil y a veces evita que "rompamos" nuestro
+ * codigo.
  */
 class Personaje {
     String nombre;
